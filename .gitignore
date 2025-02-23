@@ -18,6 +18,9 @@ target/
 *.iws
 *.iml
 *.ipr
+HELP.md
+.gitattributes
+.mvn/wrapper/maven-wrapper.properties
 
 ### NetBeans ###
 /nbproject/private/
