@@ -11,7 +11,7 @@
     <groupId>com.hrithik</groupId>
     <artifactId>dataObject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dataObject</name>
+    <name>Data-Object</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
@@ -45,6 +45,31 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
